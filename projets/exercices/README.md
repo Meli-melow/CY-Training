@@ -31,7 +31,7 @@ Les composantes restantes à implémenter sont :<br>
 
 
 ### A) Les ressorces de la branche
-*exercises-late-august* contient le développement de l'API liées aux questions (QCM). Il y a plusieurs versions :<br>
+*exercices-fin-stage* contient le développement de l'API liées aux questions (QCM). Il y a plusieurs versions :<br>
 - `teamV3` qui implémente la relation entre les entités étudiant-contributeur/question, assigne des statuts aux questions et qui calcule leur temps d'attente,
 versio compatible avec le front;
 - `teamV3Bis` qui a corrigé la mise à jour du temps d'attente de QCM proposés par n'improte quel étudiant,
