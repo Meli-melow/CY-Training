@@ -1,0 +1,103 @@
+.question-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ul-question {
+  list-style: none;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width:fit-content;
+}
+
+.li-question {
+  display: flex;
+  margin-bottom:2em;
+  gap: 1em;
+}
+
+.input-question {
+  margin-right: 10px;
+}
+
+.button-question {
+  padding: 10px 20px;
+  background-color: #F9B25E;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-question:hover {
+  background-color: #E9A24E;
+  color: black;
+}
+
+.question-correction {
+  margin-top: 20px;
+}
+
+
+
+/*https://moderncss.dev/pure-css-custom-checkbox-style/*/
+.input-question {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+
+  font: inherit;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(0.075em);
+
+  display: grid;
+  place-content: center;
+}
+.input-question::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+}
+.input-question:hover::before {
+  transform: scale(1);
+  background-color: gray;
+}
+.input-question:checked::before {
+  transform: scale(1);
+  background-color: currentColor;
+}
+
+
+/*style pour les checkboxs une fois la correction affiché*/
+.question-correct-answer {
+  color: green; 
+}
+.question-correct-answer input::before {
+  background-color: green;  
+}
+.question-wrong-answer {
+  color : red;
+}
+.question-wrong-answer input::before {
+  background-color: red;
+}
+
+.question-no-hover {
+  pointer-events: none;
+}
+
+.question-p {
+  margin : 2em;
+}

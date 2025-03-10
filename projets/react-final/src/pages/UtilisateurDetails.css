@@ -1,0 +1,44 @@
+.utilisateur-details-container {
+  max-width: 50em;
+  margin: 1em auto;
+  background: #eee;
+  padding: 1.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: solid 1px #ccc;
+  border-radius: 8px;
+  overflow: hidden; /*Le bouton de mise à jour sort du div sans*/
+}
+
+.utilisateur-details-container p{
+  margin: 2em;
+}
+
+.utilisateur-details-container .buttons {
+  display: flex;
+  float: right;
+  gap: 10px;
+}
+
+.utilisateur-details-container button {
+  padding: 10px 15px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.certifier {
+  background-color: lightgreen;
+}
+
+.certifier:hover {
+  background-color: chartreuse;
+}
+
+.supprimer-certif {
+  background-color: lightcoral;
+}
+
+.supprimer-certif:hover {
+  background-color: coral;
+}

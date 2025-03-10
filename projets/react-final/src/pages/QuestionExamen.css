@@ -1,0 +1,32 @@
+.summary-item {
+    border: solid 1px #ddd;
+    border-radius: 1em;
+    margin: 1em 20em;
+    list-style: none;
+    background-color: #eee;
+}
+
+.question-p-reponses{
+    margin: 1em;
+}
+
+.li-summary-reponses {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #eee;
+    /* Not removed via appearance */
+    margin: 0;
+
+  
+    font: inherit;
+    display: grid;
+    place-content: center;
+  }
+.li-summary-reponses::before {
+    content: "";
+    transform: scale(1);
+    box-shadow: inset 1em 1em var(--form-control-color);
+    background-color: currentColor;
+  }

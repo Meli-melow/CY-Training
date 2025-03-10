@@ -1,0 +1,126 @@
+.creation-question-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.creation-question-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.creation-question-container form div{
+  display: flex;
+  align-items: center;
+  border-radius: 1em;
+}
+
+.titre-field-creation {
+  width: 50em;
+  margin-top: 2em;
+}
+.titre-field-creation label {
+  background-color: #F9B25E;
+  width: 100%;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.reponses-field-creation {
+  background-color: #ccc;
+  width: 50em;
+  align-items: right;
+}
+
+.reponses-field-creation textarea{
+  width: 100%;
+}
+
+.creation-question-container input,
+.creation-question-container textarea {
+  padding: 10px;
+  margin: 5px 0;
+  background: none;
+  text-decoration: none;
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+
+.creation-question-container button {
+  background-color: #F9B25E;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+.creation-question-container button:hover {
+  background-color: #E9A24E;
+}
+
+.creation-reponse input {
+  width:auto;
+  margin: .78em;/*taille du block vert/rouge*/
+}
+
+.creation-reponse {
+  padding: .2em;
+  padding-right: 1em;
+  margin-right: .5em;
+  width: 11em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.creation-bonne {
+  background-color: lightgreen;
+}
+
+.creation-fausse {
+  background-color: lightcoral;
+}
+
+
+input[type="radio"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* Not removed via appearance */
+  margin: 0;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+}
+
+input[type="radio"]:checked + .creation-reponse {
+  border: 1px solid #000;
+}
+
+.creation-fausse {
+  background-color: lightcoral;
+}
+
+
+.label-creation-question {
+  margin: .78em;
+  padding: .2em .78em;
+  border-radius: 1em;
+  background-color: #F9B25E;
+}
+
+.select-creation-question, .input-creation-question {
+  padding: .78em;
+  border-radius: .78em;
+  border: 1px solid #ccc;
+}

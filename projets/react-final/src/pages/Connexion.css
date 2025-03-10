@@ -1,0 +1,54 @@
+.connexion-container {
+  text-align: center;
+  margin-top: 78px;
+}
+
+.connexion-form {
+  gap: 7em;
+}
+
+.h1-connexion {
+  color: #444
+}
+ 
+.connexion-field-container {
+  width: 100%;
+  margin-top: 5em;
+  margin-bottom: 4em;
+  justify-content: center;
+  display:grid;
+  grid-template-columns: max-content max-content;
+  gap:2em;
+}
+
+.connexion-label {
+  text-align:right;
+  display: inline-block;
+  padding-top: 5%;
+}
+
+.connexion-input {
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: .2em;
+  border: 1px solid #ccc;
+}
+
+.connexion-button {
+  background-color: #F9B25E;
+  color: black;
+  border: none;
+  border-radius: .5em;
+  padding: 10px 20px;
+  margin-left: 50%;
+  font-size: 1em;
+  cursor: pointer;
+  text-decoration: none;
+  height: 3em;
+  width: 10em;
+}
+
+.connexion-button:hover {
+  background-color: #E9A24E;
+}
+

@@ -1,0 +1,161 @@
+.question-details-container {
+  max-width: 60em;
+  margin: 1em auto;
+  background: white;
+  padding: 1.5em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  overflow: hidden; /*Le bouton de mise à jour sort du div sans*/
+}
+
+.question-details-container form {
+  display: flex;
+  flex-direction: column;
+  gap: .1em;
+  align-items: center;
+}
+
+.question-details-container form div {
+  display: flex;
+  align-items: center;
+  border-radius: 1em;
+}
+
+
+
+.reponses-field-question-details {
+  background-color: #ccc;
+  width: 50em;
+  text-align: center;
+  margin: 1%;
+}
+
+.reponses-field-question-details textarea{
+  width: 100%;
+}
+
+.question-details-container input[type="text"],
+.question-details-container textarea {
+  padding: 10px;
+  margin: 5px 0;
+  background: none;
+  text-decoration: none;
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+
+.question-details-container .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.question-details-reponse input {
+  width:auto;
+  margin: .78em;/*taille du block vert/rouge*/
+}
+
+.question-details-reponse {
+  padding: .2em;
+  padding-right: 1em;
+  margin-right: .5em;
+  width: 11em;
+  border-radius: 1em;
+}
+
+.question-details-bonne {
+  background-color: lightgreen;
+}
+
+.question-details-fausse {
+  background-color: lightcoral;
+}
+
+.titre-question-details
+{
+  background-color: #F9B25E;
+  width: 100%;
+  padding:.1em;
+  padding-left: .78em;
+  border-radius: 1em;
+  text-align: center;
+  margin-bottom: .78em;
+  width: 50em;
+  margin-top: 1em; 
+}
+
+
+.question-details-container button, .question-details-container input[type="button"] {
+  padding: 10px 15px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.approuver{
+  background-color:lightgreen;
+}
+.approuver:hover{
+  background-color:chartreuse;
+}
+.refuser{
+  background-color: lightcoral;
+}
+.refuser:hover{
+  background-color: coral;
+}
+.remettre{
+  background-color: #F9B25E;
+}
+.remettre:hover{
+  background-color: #E9A24E;
+}
+
+input[type="radio"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* Not removed via appearance */
+  margin: 0;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+
+input[type="radio"]:checked + .question-details-reponse {
+  border: 1px solid #000;
+}
+
+.question-details-fausse {
+  background-color: lightcoral;
+}
+
+input[type="radio"]:checked + .question-details-reponse {
+  border: 1px solid #000;
+}
+
+.question-details-fausse {
+  background-color: lightcoral;
+}
+
+
+.label-question-details {
+  margin: .78em;
+  padding: .2em .78em;
+  border-radius: 1em;
+  background-color: #F9B25E;
+}
+
+.select-question-details, .input-question-details {
+  padding: .78em;
+  border-radius: .78em;
+  border: 1px solid #ccc;
+}

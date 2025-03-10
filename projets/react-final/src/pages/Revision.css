@@ -1,0 +1,47 @@
+.h1-revision {
+  margin-bottom: 2em;
+}
+
+.revision-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.revision-field-container {
+  width: 100%;
+  margin-bottom: 2em;
+  justify-content: center;
+  display:grid;
+  grid-template-columns: max-content max-content;
+  gap:1em;
+}
+
+.form-revision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label-revision {
+  margin: .78em;
+}
+
+.select-revision, .input-revision {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button-revision {
+  margin: 1em;
+  padding: 10px 20px;
+  background-color: #F9B25E;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-revision:hover {
+  background-color: #E9A24E;
+}

@@ -1,0 +1,56 @@
+.creation-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.form-creation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.creation-field-container {
+  width: 100%;
+  margin-bottom: 2em;
+  margin-top: 2.5em;
+  justify-content: center;
+  display:grid;
+  grid-template-columns: max-content max-content;
+  gap:1em;
+}
+
+.label-creation {
+  padding-top: 7.8px;
+}
+
+.input-creation {
+  padding: 5px;
+  margin-top: 5px;
+  margin-right: .2em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+.creation-button {
+  background-color: #F9B25E;
+  color: black;
+  border: none;
+  border-radius: .5em;
+  padding: 10px 20px;
+  margin-left: 50%;
+  font-size: 1em;
+  cursor: pointer;
+  text-decoration: none;
+  height: 3em;
+  width: 10em;
+}
+
+.creation-button:hover {
+  background-color: #E9A24E;
+}
+
+.h1-creation {
+  color: #444
+}

@@ -1,0 +1,32 @@
+.accueil-container {
+  text-align: center;
+  margin-top: 78px;
+}
+
+.h1-accueil {
+  color: #444
+}
+
+.button-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 7em;
+}
+
+.accueil-button {
+  background-color: #F9B25E;
+  color: black;
+  border: none;
+  border-radius: .5em;
+  padding: 10px 20px;
+  font-size: 1.7em;
+  cursor: pointer;
+  text-decoration: none;
+  height: 4em;
+  width: 8em;
+}
+
+.accueil-button:hover {
+  background-color: #E9A24E;
+}
