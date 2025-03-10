@@ -1,0 +1,147 @@
+### Echantillon User
+
+{
+	"prenom" : "user1",
+	"nom" : "cuy1",
+	"email" : "u1@cy-tech.fr",
+	"mdp" : "protecc1"
+}
+
+### Echantillons UE
+
+# UE 1
+{
+	"nom" : "Informatique"
+}
+
+# UE 2
+{
+	"nom" : "Mathématiques"
+}
+
+
+### Echantillons Matiere
+
+#Matiere 1
+{
+	"nom" : "Programmation en C"
+}
+
+#Matiere 2
+{
+	"nom" : "Algorithmique Procédurale"
+}
+
+#Matiere 3
+{
+	"nom" : "Probabilités"
+}
+
+
+#Question samples
+
+
+#Q1 Maths
+{
+  "question" : "Quelle est la dérivée de la fonction x**2 ?",
+  "correction" : "C'est la réponse 3! La puissance devient le coefficient puis la dérivée a une puissance réduite de 1",
+  "reponses" : [
+    "2",
+    "x/2",
+    "2x"
+  ],
+  "indBonneRep" : ["3"],
+  "indice": "Règle des puissances"
+}
+
+
+#Q2 Maths
+{
+  "question" : "Quelle est la primmitive de la fonction ln ?",
+  "correction" : "Réponse 2. Pour y arriver, faire une intégration par parties avec la fonction constante valant 1.
+  Ici, on peut trouver en dérivant les propositions.",
+  "reponses" : [
+    "x -> x*ln(x) + 2*sqrt(x)",
+    "x -> x*ln(x) - x",
+    "x -> x*ln(x) + x",
+	"x -> 1/x"
+  ],
+  "indBonneRep" : ["2"],
+  "indice": "Intégration par parties"
+}
+
+
+#Q3 Info
+{
+  "question" : "Quelle(s) structure(s) de données basiques permettent d'implémenter un graphe ?",
+  "correction" : "Réponse 3. Les matrices rectangulaires ne coniviennent pas.
+  Un dictionnaire peut mais c'est moins évident.",
+  "reponses" : [
+    "Une matrice quelconque",
+    "Un dictionnaire",
+    "Aucune des réponses ci-dessus"
+  ],
+  "indBonneRep" : ["3"],
+  "indice": ""
+}
+
+#Q4 Info
+{
+  "question" : "Quelle(s) structure(s) de données basiques permettent d'implémenter un graphe ?",
+  "correction" : "Réponse 3. Les matrices rectangulaires ne coniviennent pas.
+  Un dictionnaire peut mais c'est moins intuitif.",
+  "reponses" : [
+    "Une matrice quelconque",
+    "Un dictionnaire",
+	"N'importe quelle type de collection",
+    "Aucune des réponses ci-dessus"
+  ],
+  "indBonneRep" : ["4"],
+  "indice": ""
+}
+
+
+#Q5 Info
+{
+  "question" : "Comment s'appelle le nombre de couleurs d'un graphe coloriable ?",
+  "correction" : "Réponse 2. Cette notion peut s'appliquer à des graphes non pondérés.
+  Dans tous les cas, elle n'a rien à voir avec la notion de poids.",
+  "reponses" : [
+    "Le poids chromatique",
+    "Le nombre chromatique",
+    "Le nombre de couleurs"
+  ],
+  "indBonneRep" : ["2"],
+  "indice": ""
+}
+
+#Q6 Info
+{
+  "question" : "Parmi les structures de données suivantes, lesquelles
+  représentent un graphe à n sommets correctement ?",
+  "correction" : "Réponses 1,2 et 3! Ces structures représentent bien la notion d'adjacence d'un graphe.
+  Elles sont justement utiles pour les parcours de graphe.",
+  "reponses" : [
+    "Une matrice carrée de taille n composée de 0 et de 1",
+    "Une collection de listes chaînées associée à chaque sommet.
+	Chaque liste contient les voisins du sommet associé",
+    "Les deux structures ci-dessus conviennent",
+	"Aucune des structures proposées ne convient"
+  ],
+  "indBonneRep" : ["1","2","3"],
+  "indice": ""
+}
+
+#Q7 Info
+{
+  "question" : "Qu'est-ce qu'un arbre ?",
+  "correction" : "Réponses 2 et 3.",
+  "reponses" : [
+    "C'est un graphe orienté",
+    "C'est un graphe connexe et acyclique",
+	"C'est une structure de données compatible avec la récursivité",
+    "Aucune des réponses ci-dessus"
+  ],
+  "indBonneRep" : ["2","3"],
+  "indice": ""
+}
